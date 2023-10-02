@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+}
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th{
+    text-align: left;
+}
+
+th, td{
+    padding-left: 5px;
+}
+tbody tr:hover{
+    background-color: #ccc;
+
+}
